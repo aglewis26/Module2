@@ -6,11 +6,11 @@ Date:9/8/2020
 Program that accepts an integer for years and returns a converted integer for months.
 """
 import constants
-from venv import constants
+from main import constants
 
 
 def convert_to_months(years):
-    months = years + constants.MONTHS
+    months = years * constants.MONTHS
     return months
 
 
